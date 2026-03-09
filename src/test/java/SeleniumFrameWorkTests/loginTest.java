@@ -34,6 +34,7 @@ public class loginTest
 		login.loginPage("shubh2304@gmail.com", "Shubham@2304");
 		
 		System.out.println("Successfully logged In");
+		System.out.println("Successfully logged In:: This is a puch demo");
 		
 		 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div[class*='mb-3']")));
