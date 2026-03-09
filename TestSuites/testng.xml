@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">   <!-- ye teeno tests ek sath multiple window mai chalge-->
+
+  <test name="Submit Order Test">
+    <classes>
+       <class name="SeleniumFrameWorkTests.submitOrderTest"/>
+     </classes>
+  </test> <!-- Test 1 tcase here-->
+  
+  <test name="Error Validation Test">
+    <classes>
+       <class name="SeleniumFrameWorkTestComponents.ErrorValidation"/>
+     </classes>
+  </test> <!-- Test 2 tcase here -->
+  
+    <test name="Order confirm Test">
+    <classes>
+       <class name="SeleniumFrameWorkTestComponents.OrderBuyConfirmTest"/>
+     </classes>
+  </test> <!-- Test 2 tcase here -->
+  
+  
+</suite> <!-- Suite -->

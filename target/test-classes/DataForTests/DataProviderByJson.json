@@ -1,0 +1,24 @@
+[
+	
+	{
+		"email":"shubh2304@gmail.com",
+		"password":"Shubham@2304",
+		"itemName":"ZARA COAT 3"	
+	},
+	
+	{
+		"email":"shubh2304@gmail.com",
+		"password":"Shubham@2304",
+		"itemName":"ADIDAS ORIGINAL"	
+	},
+	{
+		"email":"shubh2304@gmail.com",
+		"password":"Shubha@2304",
+		"itemName":"iphone 13 pro"	
+	}
+	
+	
+	
+]
+
+// to check the ExtentReport and listeners logic intentionally fail 1 data set here
